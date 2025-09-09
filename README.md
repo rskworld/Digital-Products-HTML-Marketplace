@@ -53,46 +53,17 @@ php -S localhost:8000 -t digital-products-marketplace
 - Logo: replace `assets/images/logo.svg`
 - Product images: replace SVGs in `assets/images/products/` or set real URLs in `includes/data.php`
 
-## Build ZIP
-Create `digital-products-marketplace.zip` inside the folder.
-
-```powershell
-Compress-Archive -Path digital-products-marketplace/* -DestinationPath digital-products-marketplace/digital-products-marketplace.zip -Force
-```
-
-## Contact
-For support, licensing, or custom development inquiries: help@rskworld.in  
-Phone/WhatsApp: +91 9330539277  
-Website: RSK World  
-Business Inquiries: help@rskworld.in  
-🤝 Contributing: Suggestions and improvements are welcome!
-# Digital Products HTML Marketplace
-
-Comprehensive HTML template for selling ebooks, courses, software, and digital downloads.
-
-## Pages
-- Home: `index.php`
-- Products: `products.php`
-- Product detail: `product.php`
-- Checkout: `checkout.php`
-- Authors: `authors.php`
-- Dashboard: `dashboard.php`
-- Affiliates: `affiliates.php`
-- Contact: `contact.php`
+## Demo
+- Live demo: https://rskworld.in/web/html-templates/ecommerce-templates/digital-products-marketplace/index.php
+- Home: `http://localhost:8000`
+- Products: `http://localhost:8000/products.php`
+- Cart: `http://localhost:8000/cart.php`
+- Dashboard: `http://localhost:8000/dashboard.php`
 
 ## Contact
 For support, licensing, or custom development inquiries: help@rskworld.in  
 Phone/WhatsApp: +91 9330539277  
-Website: RSK World  
+Website: rskworld.in  
 Business Inquiries: help@rskworld.in  
 🤝 Contributing: Suggestions and improvements are welcome!
-
-## Usage
-Open with a local PHP server (or any static server if you convert includes).
-
-### Using PHP built-in server
-```bash
-php -S localhost:8000 -t digital-products-marketplace
-```
-
 
