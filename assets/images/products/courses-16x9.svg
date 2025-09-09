@@ -1,0 +1,12 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="450" rx="16" fill="#FFF7ED"/>
+<rect x="160" y="80" width="480" height="290" rx="12" fill="#ffffff" stroke="#FFE0C2"/>
+<rect x="200" y="120" width="220" height="18" rx="9" fill="#FFD7AE"/>
+<rect x="200" y="160" width="360" height="12" rx="6" fill="#FFEAD7"/>
+<rect x="200" y="180" width="360" height="12" rx="6" fill="#FFEAD7"/>
+<rect x="200" y="200" width="260" height="12" rx="6" fill="#FFEAD7"/>
+<rect x="540" y="100" width="80" height="80" rx="12" fill="#FFD7AE"/>
+<rect x="200" y="240" width="380" height="80" rx="10" fill="#FFFAF5" stroke="#FFEAD7"/>
+<text x="210" y="290" fill="#E0A163" font-family="Segoe UI, Arial" font-size="14">Courses Illustration</text>
+</svg>
+

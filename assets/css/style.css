@@ -1,0 +1,95 @@
+/* Core styles for Digital Products HTML Marketplace
+Support / Licensing / Custom Dev: help@rskworld.in
+Phone/WhatsApp: +91 9330539277
+Website: rskworld.in
+Business Inquiries: help@rskworld.in
+🤝 Suggestions and improvements are welcome!
+*/
+:root {
+  --brand: #0d6efd;
+  --brand-dark: #0b5ed7;
+  --bg-soft: #f8f9fa;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg-soft);
+  color: #212529;
+}
+
+.navbar-brand .badge {
+  margin-left: .5rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, #e9f2ff 0%, #f7fbff 100%);
+  border: 1px solid #e7eef7;
+  border-radius: .75rem;
+}
+
+.btn-primary {
+  background-color: var(--brand);
+  border-color: var(--brand);
+}
+.btn-primary:hover {
+  background-color: var(--brand-dark);
+  border-color: var(--brand-dark);
+}
+
+.feature-list li::marker {
+  color: var(--brand);
+}
+
+.tag {
+  display: inline-block;
+  padding: .25rem .5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  background: white;
+  font-size: .85rem;
+  margin: 0 .25rem .25rem 0;
+}
+
+.footer-link {
+  color: #cfe2ff;
+  text-decoration: underline dotted;
+}
+
+.card-product:hover {
+  transform: translateY(-2px);
+  transition: transform .2s ease;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Subtle 3D tilt effect */
+.tilt {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+.tilt:hover {
+  transform: perspective(800px) rotateX(2deg) rotateY(-2deg) translateY(-2px);
+  transition: transform .2s ease;
+}
+
+/* Force navbar links visible on dark background */
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+  opacity: .95;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  opacity: 1;
+}
+.navbar-nav .nav-link {
+  padding-left: .75rem;
+  padding-right: .75rem;
+}

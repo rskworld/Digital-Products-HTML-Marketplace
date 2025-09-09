@@ -1,0 +1,36 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#e9f2ff"/>
+    <stop offset="1" stop-color="#f7fbff"/>
+  </linearGradient>
+</defs>
+<rect width="800" height="450" rx="16" fill="url(#g)"/>
+<g opacity=".9">
+  <circle cx="120" cy="100" r="60" fill="#d0e2ff"/>
+  <rect x="220" y="70" width="220" height="140" rx="12" fill="#ffffff" stroke="#e5efff"/>
+  <rect x="240" y="92" width="140" height="14" rx="7" fill="#e5efff"/>
+  <rect x="240" y="118" width="180" height="10" rx="5" fill="#e5efff"/>
+  <rect x="240" y="138" width="180" height="10" rx="5" fill="#e5efff"/>
+  <rect x="240" y="158" width="120" height="10" rx="5" fill="#e5efff"/>
+  <rect x="470" y="80" width="120" height="120" rx="10" fill="#d0e2ff"/>
+  <rect x="120" y="250" width="560" height="120" rx="12" fill="#ffffff" stroke="#e5efff"/>
+  <rect x="140" y="270" width="200" height="14" rx="7" fill="#e5efff"/>
+  <rect x="140" y="296" width="420" height="10" rx="5" fill="#e5efff"/>
+  <rect x="140" y="316" width="380" height="10" rx="5" fill="#e5efff"/>
+  <rect x="140" y="336" width="260" height="10" rx="5" fill="#e5efff"/>
+  <rect x="600" y="260" width="60" height="60" rx="10" fill="#d0e2ff"/>
+  <rect x="680" y="260" width="60" height="60" rx="10" fill="#c6f6d5"/>
+  <rect x="600" y="330" width="140" height="20" rx="10" fill="#bee3f8"/>
+  <rect x="600" y="360" width="140" height="20" rx="10" fill="#fbd38d"/>
+  <circle cx="700" cy="90" r="40" fill="#ffd9e8"/>
+  <circle cx="640" cy="140" r="28" fill="#c8e6ff"/>
+  <circle cx="720" cy="150" r="18" fill="#e6ffcc"/>
+  <rect x="50" y="380" width="260" height="24" rx="12" fill="#dbeafe"/>
+  <rect x="320" y="380" width="220" height="24" rx="12" fill="#c7f9cc"/>
+  <rect x="550" y="380" width="200" height="24" rx="12" fill="#ffe3e3"/>
+  <text x="50" y="420" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Digital Products HTML Marketplace</text>
+  <text x="50" y="436" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="10">Clean, professional, and easy to implement.</text>
+</g>
+</svg>
+
